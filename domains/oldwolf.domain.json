@@ -1,18 +1,14 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-  "description": "A development, designing and programing related stuff", // what is it?
-  "domain": "is-an.app", // or "1bt.uk"
-  "subdomain": "oldwolf",
-  "owner": {
-    "repo": "https://github.com/wolfljj/free-domains", // URL to the target repository or your GitHub account
-    "email": "my@email.com" // optional
-  },
-  "record": {
-    "CNAME": "oldwolf.github.io.",
-    //"TXT": ["..."],
-    //"A": ["127.0.0.1"],
-    //"AAAA": ["::1"],
-    //"NS": ["..."],
-  },
-  "proxy": true // disable CF proxy, true by default
+	"$schema": "../schemas/domain.schema.json",
+	"description": "A development, designing and programing related stuff",
+	"domain": "is-an.app",
+	"subdomain": "oldwolf",
+	"owner": {
+		"repo": "https://github.com/wolfljj/free-domains",
+		"email": "my@email.com"
+	},
+	"record": {
+		"CNAME": "oldwolf.github.io."
+	},
+	"proxy": true
 }
