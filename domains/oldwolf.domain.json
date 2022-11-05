@@ -4,8 +4,7 @@
 	"domain": "is-an.app",
 	"subdomain": "oldwolf",
 	"owner": {
-		"repo": "https://github.com/wolfljj/free-domains",
-		"email": "my@email.com"
+		"repo": "https://github.com/wolfljj/free-domains"
 	},
 	"record": {
 		"CNAME": "oldwolf.github.io."
